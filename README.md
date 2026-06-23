@@ -52,3 +52,17 @@ pip install requests
 # BOT_TOKEN=ваш_токен_от_@BotFather
 
 python main.py
+```
+## Структура
+
+```
+TGBots/
+├── [папка бота погоды]/
+│   ├── main.py
+│   ├── weather_command.py
+│   └── cities.json
+├── [папка конвертера]/
+│   └── main.py
+└── [папка авиабилетов]/
+    └── main.py
+```
